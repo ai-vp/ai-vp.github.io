@@ -1,0 +1,27 @@
+{
+  "name": "@duxweb/vitepress-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.31.0",
+  "description": "VitePress theme monorepo",
+  "scripts": {
+    "dev": "pnpm -C packages/docs dev",
+    "build": "pnpm -r build",
+    "build:theme": "pnpm -C packages/theme build",
+    "build:docs": "pnpm -C packages/docs build",
+    "preview": "pnpm -C packages/docs preview",
+    "release": "pnpm -C packages/theme release"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "vitepress",
+    "theme",
+    "documentation"
+  ],
+  "author": "DuxWeb",
+  "license": "MIT"
+}

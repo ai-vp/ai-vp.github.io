@@ -1,0 +1,4 @@
+packages:
+  - packages/*
+overrides:
+  "@ai-vp/vptheme": link:packages/theme
