@@ -2,7 +2,7 @@ import { vpTheme } from '@ai-vp/vptheme/config'
 const isGitHub = process.env.GITHUB_ACTIONS === 'true'
 const BASE = isGitHub ? '/themes/' : '/'
 export default vpTheme({
-  base: BASE,
+  base: '/',
 
   // 站点配置
   title: 'AI-VP',
