@@ -108,6 +108,28 @@ export default vpTheme({
   themeConfig: {
     logo: '/logo.svg',
 
+    langs: {
+        notFound: {
+        title: '页面未找到',
+        content: '抱歉，我们无法找到您要查找的页面。',
+        backToHome: '返回首页',
+        previousPage: '返回上一页'
+      },
+      sponsor: {
+        selectPaymentMethod: '选择支付方式',
+        recentSupporters: '最近支持者',
+        totalSupporters: '总支持者',
+        totalAmount: '总金额'
+      },
+      jump: {
+        redirecting: '正在跳转到您偏好的语言版本...',
+        redirectingSecondary: 'Redirecting to your preferred language...',
+        orChooseLanguage: '或选择语言',
+        orChooseLanguageSecondary: 'Or choose language',
+        countdown: '秒'
+      }
+    },
+
     search: {
       provider: 'local'
     },

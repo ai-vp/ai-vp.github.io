@@ -56,13 +56,13 @@
   }
 
   .prose-content .shiki .line.highlighted {
-    @apply !bg-primary-500/10 !bg-primary-700/10;
+    @apply bg-primary-700/10!;
   }
   .prose-content .shiki .line.highlighted.error {
-    @apply !bg-red-500/10 !bg-red-700/10;
+    @apply bg-red-500/10!;
   }
   .prose-content .shiki .line.highlighted.warning {
-    @apply !bg-yellow-500/10 !bg-yellow-700/10;
+    @apply bg-yellow-700/10!;
   }
 
   .prose-content .shiki .line.diff {
@@ -70,7 +70,7 @@
   }
 
   .prose-content .shiki .line.diff.remove {
-    @apply !bg-red-500/10 !bg-red-700/10;
+    @apply bg-red-700/10!;
   }
 
   .prose-content .shiki .line.diff.remove::after {
@@ -79,7 +79,7 @@
   }
 
   .prose-content .shiki .line.diff.add {
-    @apply !bg-green-500/10 !bg-green-700/10;
+    @apply bg-green-700/10!;
   }
 
   .prose-content .shiki .line.diff.add::after {
@@ -127,13 +127,9 @@
   }
   
   /* VitePress 特定样式 */
-  .prose-content .vp-adaptive-theme {
-    /* VitePress 自适应主题容器 */
-  }
+  /* VitePress 自适应主题容器 */
   
-  .prose-content .vp-code {
-    /* VitePress 代码块 */
-  }
+  /* VitePress 代码块 */
   
   /* VitePress 代码组样式 */
   .prose-content .vp-code-group {

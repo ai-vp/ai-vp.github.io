@@ -2,7 +2,7 @@
   <Teleport to="body">
     <div
       v-if="isSearchOpen"
-      class="fixed inset-0 z-[100] flex items-start justify-center p-4 sm:p-6 md:p-20"
+      class="fixed inset-0 z-100 flex items-start justify-center p-4 sm:p-6 md:p-20"
       @click.self="closeSearch"
     >
       <!-- 背景遮罩 -->
@@ -57,7 +57,7 @@
               @mouseenter="selectedIndex = index"
             >
               <div class="flex items-start gap-3">
-                <div class="icon-[heroicons--document-text] h-5 w-5 text-gray-400 dark:text-gray-500 mt-0.5 flex-shrink-0"></div>
+                <div class="icon-[heroicons--document-text] h-5 w-5 text-gray-400 dark:text-gray-500 mt-0.5 shrink-0"></div>
                 <div class="flex-1 min-w-0">
                   <div v-if="result.section" class="text-xs text-gray-500 dark:text-gray-400 mb-1">
                     {{ result.section }}

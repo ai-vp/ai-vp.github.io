@@ -121,7 +121,7 @@ onMounted(() => {
 
     <div class="text-center z-10 max-w-md mx-auto px-6">
       <!-- Logo 或标题 -->
-      <div class="mb-8">w
+      <div class="mb-8">
         <div class="icon-[heroicons--globe-alt] w-16 h-16 text-primary-500 mx-auto mb-4"></div>
         <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">
           {{ frontmatter.title || site.title }}

@@ -2,7 +2,7 @@
   <button
     type="button"
     @click="handleOpenSearch"
-    class="search-button inline-flex items-center gap-2 px-3 py-1.5 h-[2rem] text-sm text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg transition-colors"
+    class="search-button inline-flex items-center gap-2 px-3 py-1.5 h-8 text-sm text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg transition-colors"
     :aria-label="searchTexts.button?.buttonAriaLabel"
   >
     <div class="icon-[heroicons--magnifying-glass] h-4 w-4"></div>

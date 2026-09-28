@@ -16,8 +16,7 @@ export default defineConfig({
         config: resolve(__dirname, 'config.ts'),
         'shims/sanitize-url': resolve(__dirname, 'shims/sanitize-url.ts'),
         'shims/dayjs': resolve(__dirname, 'shims/dayjs.ts')
-      },
-      formats: ['es', 'cjs']
+      }
     },
     rollupOptions: {
       external: [
